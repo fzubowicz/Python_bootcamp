@@ -1,8 +1,11 @@
-def more_than(text, number):
-    dictionary = {}
-    for
+def more_than(napis, prog):
+    wynik = set()
+    for letter in napis:
+        if napis.count(letter) > prog:
+            wynik.add(letter)
+
+    return wynik
 
 
 def test_more_than():
-    assert
-
+    assert more_than('ala ma kota a kot ma ale', 3) == {'a', ' '}

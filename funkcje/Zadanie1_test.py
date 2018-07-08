@@ -15,3 +15,14 @@ def test_czy_pierwsza_dla_liczby_niepierwszej():
     assert czy_jest_pierwsza(4) == False
     assert czy_jest_pierwsza(15) == False
 
+
+
+
+
+
+
+
+
+
+
+
